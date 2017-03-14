@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="quan">
+        <item>Quận 1</item>
+        <item>Quận 2</item>
+        <item>Quận Tân Bình</item>
+        <item>Quận Tân Phú</item>
+    </array>
+    <array name="duong_q1">
+        <item>Bùi Thị Xuân</item>
+        <item>Bùi Viện</item>
+        <item>Điện Biên Phủ</item>
+    </array>
+    <array name="duong_q2">
+        <item>An Phú</item>
+        <item>Đỗ Xuân Hợp</item>
+        <item>Mai Chí Thọ</item>
+    </array>
+    <array name="duong_qtb">
+        <item>Bàu Cát</item>
+        <item>Trường Chinh</item>
+        <item>Cộng Hòa</item>
+    </array>
+    <array name="duong_qtp">
+        <item>Bờ Bao Tân Thắng</item>
+        <item>Đô Đốc Lộc</item>
+        <item>Âu Cơ</item>
+    </array>
+
+    <array name="quan_hanoi">
+        <item>Quận Hoàn Kiếm</item>
+        <item>Quận Tây Hồ</item>
+        <item>Quận Ba Đình</item>
+        <item>Quận Thanh Xuân</item>
+    </array>
+    <array name="duong_qhk">
+        <item>Ấu Triệu</item>
+        <item>Bà Triệu</item>
+        <item>Bạch Đằng</item>
+    </array>
+    <array name="duong_qth">
+        <item>An Dương</item>
+        <item>An Dương Vương</item>
+        <item>Âu Cơ</item>
+    </array>
+    <array name="duong_qbd">
+        <item>An Xá</item>
+        <item>Bà Huyện Thanh Quan</item>
+        <item>Cao Bá Quát</item>
+    </array>
+    <array name="duong_qtx">
+        <item>Bùi Xương Trạch</item>
+        <item>Cầu Mới</item>
+        <item>Hạ Đình</item>
+    </array>
+    <array name="spinnerzone">
+        <item>Chọn Tỉnh Thành...</item>
+        <item>TP.HCM</item>
+        <item>Hà Nội</item>
+    </array>
+    <array name="data_catalog_item">
+        <item>Việt Nam</item>
+        <item>Châu Mỹ</item>
+        <item>Mỹ</item>
+        <item>Tây Âu</item>
+        <item>Ý</item>
+        <item>Pháp</item>
+        <item>Đức</item>
+        <item>Tây Ban Nha</item>
+        <item>Trung Hoa</item>
+        <item>Ấn Độ</item>
+        <item>Thái Lan</item>
+        <item>Nhật Bản</item>
+        <item>Hàn Quốc</item>
+        <item>Malaysia</item>
+        <item>Quốc Tế</item>
+        <item>Sang trọng</item>
+        <item>Buffet</item>
+        <item>Nhà hàng</item>
+        <item>Ăn vặt/vỉa hè</item>
+        <item>Ăn chay</item>
+        <item>Café/Dessert</item>
+        <item>Quán ăn</item>
+        <item>Bar/Pub</item>
+        <item>Quán nhậu</item>
+        <item>Beer club</item>
+        <item>Tiệm bánh</item>
+        <item>Tiệc tận nơi</item>
+        <item>Shop Online</item>
+        <item>Giao cơm văn phòng</item>
+        <item>Giao cơm văn phòng</item>
+    </array>
+    <array name="data_catalog_image">
+        <item>@drawable/vietnam</item>
+        <item>@drawable/chaumy</item>
+        <item>@drawable/my</item>
+        <item>@drawable/tayau</item>
+        <item>@drawable/y</item>
+        <item>@drawable/phap</item>
+        <item>@drawable/duc</item>
+        <item>@drawable/taybannha</item>
+        <item>@drawable/trunghoa</item>
+        <item>@drawable/ando</item>
+        <item>@drawable/thailan</item>
+        <item>@drawable/nhatban</item>
+        <item>@drawable/hanquoc</item>
+        <item>@drawable/malaysia</item>
+        <item>@drawable/quocte</item>
+        <item>@drawable/sangtrong</item>
+        <item>@drawable/buffet</item>
+        <item>@drawable/nhahang</item>
+        <item>@drawable/anvat</item>
+        <item>@drawable/anchay</item>
+        <item>@drawable/coffee</item>
+        <item>@drawable/quanan</item>
+        <item>@drawable/bar</item>
+        <item>@drawable/quannhau</item>
+        <item>@drawable/beerclub</item>
+        <item>@drawable/tiembanh</item>
+        <item>@drawable/tiectannoi</item>
+        <item>@drawable/shoponline</item>
+        <item>@drawable/giaocom</item>
+    </array>
+
+    <array name="data_store_image">
+        <item>@drawable/store_1</item>
+        <item>@drawable/store_2</item>
+        <item>@drawable/store_3</item>
+        <item>@drawable/store_4</item>
+        <item>@drawable/store_5</item>
+        <item>@drawable/store_6</item>
+    </array>
+
+    <array name="xemnhieu_tenquan">
+        <item>Các quán Coffee mở 24h</item>
+        <item>Các quán món ăn vặt</item>
+        <item>Các quán món Buffet</item>
+        <item>Các quán món ăn Nhật</item>
+        <item>Rooftop Bar</item>
+        <item>Gà phủ phô mai</item>
+    </array>
+    <array name="xemnhieu_anhquan">
+        <item>@drawable/quancafemo24h</item>
+        <item>@drawable/cacmonanvat</item>
+        <item>@drawable/buffetbosuutap</item>
+        <item>@drawable/cacmonannhat</item>
+        <item>@drawable/rooftopplace</item>
+        <item>@drawable/gaphuphomai</item>
+    </array>
+    <array name="xemnhieu_sodiadiem">
+        <item>127 Địa điểm</item>
+        <item>69 Địa điểm</item>
+        <item>35 Địa điểm</item>
+        <item>21 Địa điểm</item>
+        <item>17 Địa điểm</item>
+        <item>12 Địa điểm</item>
+    </array>
+
+    <array name="xemnhieu_soluonglike">
+        <item>1.9k</item>
+        <item>6.9k</item>
+        <item>35k</item>
+        <item>21k</item>
+        <item>17k</item>
+        <item>12k</item>
+    </array>
+
+    <array name="noibat_tenquan">
+        <item>Nhà hàng chay</item>
+        <item>Bạch tuột nướng</item>
+        <item>Bánh tráng nướng</item>
+        <item>Bông lan trứng muối</item>
+        <item>Bún chả Hà Nội ở Sài Gòn</item>
+        <item>Các nhà hàng Dim Sum sang trọng</item>
+    </array>
+
+
+    <array name="noibat_sodiadiem">
+        <item>127 Địa điểm</item>
+        <item>69 Địa điểm</item>
+        <item>35 Địa điểm</item>
+        <item>21 Địa điểm</item>
+        <item>17 Địa điểm</item>
+        <item>12 Địa điểm</item>
+    </array>
+
+    <array name="noibat_soluonglike">
+        <item>1.9k</item>
+        <item>6.9k</item>
+        <item>35k</item>
+        <item>21k</item>
+        <item>17k</item>
+        <item>12k</item>
+    </array>
+
+    <array name="xemnhieu_bosuutapanh_tenquan">
+        <item>Buffet Tôm Hùm</item>
+        <item>Các món ngon ở Đà Lạt</item>
+        <item>Các món ngon ở Vũng Tàu</item>
+        <item>Những quán Coffee thất tình</item>
+        <item>Những quán Coffee sân thượng</item>
+        <item>7 quán Coffee ngắm trọn Hồ Tây</item>
+    </array>
+
+    <array name="xemnhieu_bosuutapanh_anhquan">
+        <item>@drawable/buffetomhum</item>
+        <item>@drawable/cacmonngonodalat</item>
+        <item>@drawable/cacmonngonovungtau</item>
+        <item>@drawable/coffethattinh</item>
+        <item>@drawable/coffesanthuong</item>
+        <item>@drawable/coffehotay</item>
+    </array>
+
+    <array name="xemnhieu_bosuutapanh_sodiadiem">
+        <item>127 Địa điểm</item>
+        <item>69 Địa điểm</item>
+        <item>35 Địa điểm</item>
+        <item>21 Địa điểm</item>
+        <item>17 Địa điểm</item>
+        <item>12 Địa điểm</item>
+    </array>
+
+    <array name="xemnhieu_bosuutapanh_soluonglike">
+        <item>1.9k</item>
+        <item>6.9k</item>
+        <item>35k</item>
+        <item>21k</item>
+        <item>17k</item>
+        <item>12k</item>
+    </array>
+
+    <array name="data_store_address">
+        <item>224 Phạm Văn Đồng, P.1, Quận Gò Vấp, TP.HCM</item>
+        <item>698 Sư Vạn Hạnh, Q.10, TP.HCM</item>
+        <item>47 Phan Chu Trinh, P.Bến Thành, Quận 1, TP.HCM</item>
+        <item>1 Trần Minh Quyền, P.10, Quận 10, TP.HCM</item>
+        <item>207/69 Đường 3 Tháng 2, P.11, Quận 10, TP.HCM</item>
+        <item>86 Trần Hưng Đạo, P.Phạm Ngũ Lão, Quận 1, TP.HCM</item>
+    </array>
+
+    <array name="data_store_distance">
+        <item>9,6km</item>
+        <item>6,6km</item>
+        <item>3,2km</item>
+        <item>1,6km</item>
+        <item>2,1km</item>
+        <item>5,1km</item>
+    </array>
+
+    <array name="data_name_new">
+        <item>Gần tôi</item>
+        <item>E-Coupon</item>
+        <item>Đặt chỗ ưu đãi</item>
+        <item>Đặt giao hàng</item>
+        <item>E-Card</item>
+        <item>Games and Fun</item>
+        <item>Bình luận</item>
+        <item>Blogs</item>
+        <item>Top thành viên</item>
+        <item>Sự kiện</item>
+    </array>
+
+    <array name="data_image_new">
+        <item>@drawable/gantoi</item>
+        <item>@drawable/ecoupon</item>
+        <item>@drawable/datcho</item>
+        <item>@drawable/datgiaohang</item>
+        <item>@drawable/ecard</item>
+        <item>@drawable/game</item>
+        <item>@drawable/binhluan</item>
+        <item>@drawable/blog</item>
+        <item>@drawable/topthanhvien</item>
+        <item>@drawable/sukien</item>
+    </array>
+
+    <array name="data_img_marker">
+        <item>@drawable/nhahangmap</item>
+        <item>@drawable/coffeemap</item>
+        <item>@drawable/tiembanhmap</item>
+        <item>@drawable/coffeemap</item>
+        <item>@drawable/quanbarmap</item>
+        <item>@drawable/tiembanhmap</item>
+    </array>
+
+    <string-array name="data_location_lat">
+        <item>10.771521</item>
+        <item>10.781521</item>
+        <item>10.751521</item>
+        <item>10.711521</item>
+        <item>10.701521</item>
+        <item>10.791521</item>
+    </string-array>
+
+    <string-array name="data_location_lng">
+        <item>106.671913</item>
+        <item>106.673913</item>
+        <item>106.675913</item>
+        <item>106.676913</item>
+        <item>106.677913</item>
+        <item>106.679913</item>
+    </string-array>
+
+    <array name="map">
+        <item>Ăn uống</item>
+        <item>Giải trí</item>
+        <item>Đẹp khỏe</item>
+        <item>Du lịch</item>
+        <item>Mua Sắm</item>
+        <item>Ăn vặt</item>
+        <item>Ăn sáng</item>
+        <item>Buffet</item>
+    </array>
+
+
+
+    <string-array name="link_image">
+        <item>https://media.foody.vn/res/g26/253858/prof/s320x200/foody-mobile-phoi-canh-tang-2-jpg-721-636041985588843821.jpg</item>
+        <item>https://media.foody.vn/res/g27/267606/prof/s320x200/foody-mobile-mi-ga-tam-ky-jpg-260-636072242098488656.jpg</item>
+        <item>https://media.foody.vn/res/g22/217604/prof/s320x200/foody-mobile-img_1269-jpg-322-635981391262710116.jpg</item>
+        <item>https://media.foody.vn/res/g16/151927/prof/s320x200/foody-mobile-cokrt7je-jpg-369-635887075516095086.jpg</item>
+        <item>https://media.foody.vn/res/g28/272978/prof/s320x200/foody-mobile-hmb-jpg-170-636087698204897109.jpg</item>
+        <item>https://media.foody.vn/res/g10/91179/prof/s320x200/foody-mobile-sorae-mb-jpg-876-635787959474840040.jpg</item>
+    </string-array>
+</resources>

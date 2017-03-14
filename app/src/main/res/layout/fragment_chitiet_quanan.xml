@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/background_activity"
+        android:layout_height="50dp">
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/imgback"
+            android:src="@drawable/muiten"
+
+            android:layout_marginLeft="10dp"
+            android:background="@color/background_activity"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tên Quán"
+            android:paddingLeft="10dp"
+            android:id="@+id/tvtenquantittle"
+            android:layout_gravity="center_vertical"
+            android:textColor="#fff"
+            android:textStyle="normal|bold" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/frame_container_chitiet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bg_drak"
+            android:orientation="horizontal"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            >
+
+            <ImageView
+                android:id="@+id/imgtaianh"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_weight="1"
+                android:src="@drawable/camera"
+                />
+
+            <ImageView
+                android:id="@+id/imgcheckin"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_weight="1"
+                android:src="@drawable/checkin" />
+
+            <ImageView
+                android:id="@+id/imgbinhluan"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_weight="1"
+                android:src="@drawable/binhluanchitiet" />
+
+            <ImageView
+                android:id="@+id/imgluulai"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_weight="1"
+                android:src="@drawable/luulai" />
+
+            <ImageView
+                android:id="@+id/imgchiase"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_weight="1"
+                android:src="@drawable/chiase" />
+
+        </LinearLayout>
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="#fff"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgchitiet"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                app:srcCompat="@drawable/buncha"
+                android:scaleType="centerCrop"/>
+
+            <TextView
+                android:id="@+id/tvtenquan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tên quán ăn"
+                android:textSize="17sp"
+                android:paddingTop="10dp"
+                android:textAlignment="center"
+                android:textStyle="normal|bold"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/tvslogan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Slogan"
+                android:textAlignment="center"
+                android:textColor="#000" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal"
+                android:background="@drawable/kevien"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:id="@+id/tvbinhluan"
+                        android:text="5"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:textSize="20dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Bình luận"
+                        android:textColor="@color/common_google_signin_btn_text_light_default"
+                        android:textSize="10dp"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:id="@+id/tvhinhanh"
+                        android:text="5"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:textSize="20dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hình ảnh"
+                        android:textColor="@color/common_google_signin_btn_text_light_default"
+                        android:textSize="10dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:id="@+id/tvcheckin"
+                        android:text="5"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:textSize="20dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Check in"
+                        android:textColor="@color/common_google_signin_btn_text_light_default"
+                        android:textSize="10dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:id="@+id/tvluulai"
+                        android:text="5"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:textSize="20dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Lưu lại"
+                        android:textColor="@color/common_google_signin_btn_text_light_default"
+                        android:textSize="10dp"/>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tvdiem"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/circle_bg"
+                    android:gravity="center"
+                    android:text="7.9"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/font_mark_size"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="10dp"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_height="15dp"
+                        app:srcCompat="@drawable/clock"
+                        android:id="@+id/imageView7" />
+
+                    <TextView
+                        android:id="@+id/tvgiomocua"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Giờ mở cửa"
+                        android:textColor="#000"
+                        android:layout_weight="1" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_height="15dp"
+                        app:srcCompat="@drawable/money"
+                        android:id="@+id/imageView3" />
+
+                    <TextView
+                        android:id="@+id/tvgiatien"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:text="Giá tiền"
+                        android:textColor="#000"
+                        android:layout_weight="1" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1">
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_height="15dp"
+                        app:srcCompat="@drawable/catalogu"
+                        android:id="@+id/imageView5" />
+                    <TextView
+                        android:id="@+id/tvdanhmuc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Danh mục"
+                        android:textColor="#000"
+                        android:layout_weight="1" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="2dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_height="15dp"
+                        app:srcCompat="@drawable/locationmark"
+                        android:id="@+id/imageView6" />
+                    <TextView
+                        android:id="@+id/tvdiachi"
+                        android:layout_width="210dp"
+                        android:layout_height="wrap_content"
+                        android:text="Địa chỉ"
+                        android:textColor="#000"
+                        android:layout_weight="1" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hình ảnh và Video"
+                android:paddingTop="10dp"
+                android:textSize="18sp"
+                android:textStyle="normal|bold"
+                android:textAlignment="center"
+                android:textColor="@color/common_google_signin_btn_text_light_default" />
+
+            <ImageView
+                android:id="@+id/imganhvavideo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitCenter"
+                android:background="@drawable/playvideo"
+                android:layout_gravity="center_horizontal"
+                android:padding="5dp"
+                />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recylerview_imglistchitiet"
+                android:layout_width="match_parent"
+                android:layout_height="500dp">
+
+            </android.support.v7.widget.RecyclerView>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:layout_width="@dimen/item_catalog_width"
+        android:layout_height="@dimen/item_catalog_height"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/padding"
+        android:src="@drawable/gantoi"
+        android:id="@+id/img_new_header"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/padding"
+        android:layout_weight="1"
+        android:text="Gần tôi"
+        android:id="@+id/tv_namenew_header"
+        />
+
+</LinearLayout>

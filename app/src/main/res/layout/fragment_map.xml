@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recylerview_map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background= "#f50303"
+        android:paddingBottom="5dp"
+
+        ></android.support.v7.widget.RecyclerView>
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/map_view"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/recylerview_map" />
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="lighter_gray">#00dddddd</color>
+    <color name="color_background">#3ffaf8f8</color>
+    <color name="background_activity">#f50303</color>
+    <color name="background_detail">#d5060606</color>
+    <color name="background_map">#EDEDED</color>
+    <color name="bg_drak">#c3000000</color>
+
+    <color name="color_slogan">#28faf8f8</color>
+    <color name="color_edittext">#71faf8f8</color>
+    <color name="tab_background_selected">#FFFF</color>
+    <color name="tab_background_unselected">#f50303</color>
+    <color name="tablayout_background_selected">#EDEDED</color>
+    <color name="tablayout_background_unselected">#FFF</color>
+</resources>

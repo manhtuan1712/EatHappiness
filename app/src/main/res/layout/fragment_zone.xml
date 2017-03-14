@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#efefef"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#efefef"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/spinnerzone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:entries="@array/spinnerzone"
+            android:background="#efefef"
+            android:spinnerMode="dialog" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/gps"
+            android:background="#efefef"/>
+
+        <TextView
+            android:id="@+id/tvzone"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/padding_top_store"
+            android:gravity="center_vertical"
+            android:text="Đổi tỉnh thành"
+            android:textColor="#000"
+            android:textSize="@dimen/text_size_address"
+            android:background="#efefef"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:id="@+id/frame_zone"
+        android:orientation="vertical">
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/lighter_gray">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/padding_top_store"
+        android:background="#fff"
+        android:paddingBottom="@dimen/item_catalog_padding_top"
+        android:paddingTop="@dimen/item_catalog_padding_top">
+
+        <TextView
+            android:text="7.9"
+            android:layout_width="@dimen/mark_size"
+            android:layout_height="@dimen/mark_size"
+            android:id="@+id/txt_mark"
+            android:background="@drawable/circle_bg"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/padding_left_mark"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/font_mark_size"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/padding_left_mark"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:text="Quán chay phúc ấn an gia"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt_name"
+                    android:textSize="@dimen/text_size"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:text="163/21/3 Tô Hiến Thành, Quận 10, TP.HCM"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt_address"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/text_size_address"
+                    android:textColor="@android:color/black"
+                    />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/gps"
+                    android:id="@+id/imageView2"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_distance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8,1km"
+                    android:layout_marginRight="@dimen/padding_top_store"
+                    android:textSize="@dimen/text_size_address"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@android:color/black"
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/store_1"
+        android:id="@+id/img_store" />
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="#fff"
+        android:gravity="center_vertical"
+        android:paddingBottom="@dimen/padding_top_store"
+        android:paddingLeft="@dimen/padding_left_mark"
+        android:paddingTop="@dimen/padding_top_store"
+
+        >
+
+        <ImageView
+            android:layout_width="@dimen/size_icon_message"
+            android:layout_height="@dimen/size_icon_message"
+            android:layout_marginRight="@dimen/padding_top_store"
+            android:src="@drawable/like"
+            />
+
+        <TextView
+            android:text="1,200"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_address"
+            android:id="@+id/tvlike"
+            android:textColor="@android:color/black"
+            />
+
+        <ImageView
+            android:layout_width="@dimen/size_icon_message"
+            android:layout_height="@dimen/size_icon_message"
+            android:layout_marginLeft="@dimen/item_catalog_width"
+            android:layout_marginRight="@dimen/padding_top_store"
+            android:src="@drawable/comment"
+            />
+
+        <TextView
+            android:text="800"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_address"
+            android:textColor="@android:color/black"
+            android:id="@+id/tvcmt"
+
+            />
+
+        <TextView
+            android:text="@string/openning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/padding_top_store"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:textSize="@dimen/text_size_address"
+            android:textColor="@android:color/black"
+            />
+    </LinearLayout>
+
+</LinearLayout>

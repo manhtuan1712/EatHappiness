@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/container_camera">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:background="@color/tab_background_unselected">
+
+            <ImageButton
+                android:id="@+id/imgback"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="100dp"
+                android:paddingLeft="27dp"
+                android:background="@color/tab_background_unselected"
+                android:src="@drawable/muiten" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="80dp"
+                android:text="Check in"
+                android:textColor="@android:color/white"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Đăng"
+                android:textColor="@android:color/white"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvtenquan"
+                android:layout_width="232dp"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/edtnhanxet"
+                android:padding="10dp"
+                android:text="Nhà hàng Tôm hùm"
+                android:textSize="18sp"
+                android:textStyle="normal|bold" />
+
+            <ImageButton
+                android:id="@+id/imgbuttonbst"
+                android:layout_width="40dp"
+
+
+                android:padding="2dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/bosuutap"
+                style="@android:style/Widget.Holo.ImageButton"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/imgbuttocamera"
+                android:padding="2dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/camera"
+                style="@android:style/Widget.Holo.ImageButton"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/imgbuttonbst"
+                android:layout_toEndOf="@+id/imgbuttonbst"
+                android:layout_marginLeft="29dp"
+                android:layout_marginStart="29dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/edtnhanxet"
+            android:layout_width="match_parent"
+            android:layout_height="83dp"
+            android:layout_above="@+id/recycler_view_camera"
+            android:paddingLeft="10dp"
+            android:layout_marginBottom="41dp"
+            android:hint="Nhận xét của bạn" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view_camera"
+            android:layout_width="match_parent"
+            android:layout_height="276dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true">
+
+        </android.support.v7.widget.RecyclerView>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+
+            >
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>
